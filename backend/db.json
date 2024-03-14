@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Romulo",
+      "message": "Seja bem vindo ao meu blog :) Angular | Java"
+    },
+    {
+      "id": "2",
+      "name": "Vittoria",
+      "message": "Blog muito bacana!"
+    },
+    {
+      "id": "1",
+      "name": "Luna",
+      "message": "Belo blog!"
+    },
+    {
+      "id": "4",
+      "name": "José",
+      "message": "Primeira mensagem!"
+    }
+  ]
+}
