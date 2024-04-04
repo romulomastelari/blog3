@@ -1,27 +1,85 @@
-# Blog
+<h1 align="center">Projeto Blog Angular</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+<p align="center">
+<img alt="" src="https://img.shields.io/github/last-commit/romulomastelari/galeraJavaScript?color=4da1cd" />
+<img alt="" src="https://img.shields.io/github/repo-size/romulomastelari/galeraJavaScript?color=4da1cd" />
+<img alt="" src="https://img.shields.io/github/languages/count/romulomastelari/galeraJavaScript?color=4da1cd" />
+<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=E51C44&labelColor=0A1033"/>
+</p>
 
-## Development server
+<h3 align="center">Vídeo prévio da aplicação</h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+</div>
 
-## Build
+<br/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Projeto
 
-## Running unit tests
+Descrição do projeto:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Intro da aplicação
+- Origem da aplicação?
+- Por que fez e sua utilidade?
 
-## Running end-to-end tests
+Esse projeto foi desenvolvida para estudos seguindo os ensinamentos do professor **[Wheslley Rimar](https://www.linkedin.com/in/wheslleyrimar/)** no curso de Desenvolvendo seu Blog **[Desenvolvendo seu Blog](https://web.dio.me/lab/desenvolvendo-seu-blog-com-as-tecnologias-de-java-e-angular/learning/ce73b515-e3a8-4378-a4c4-2bf52a811409)** .
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Nele abordamos a criação de um projeto de um Blog em <strong>Angular</strong>.
 
-## Further help
+Contendo anotações e comentários particulares servindo de consulta para novos projetos.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🧪 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Angular](https://angular.io/docs)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```
+$ git clone <https://github.com/romulomastelari/blog3.git>
+
+$ cd nome-do-repo
+```
+
+Para iniciá-lo, siga os passos abaixo:
+
+```
+Após baixar o repo, ir até o back e rodar npm start e para rodar o front a mesma maneira, ir até o front e rodar com npm start.
+```
+
+<br />
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.notion.so/LICENSE.md) para mais detalhes.
+
+<br />
+
+## 📓 Anotações pessoais
+
+```
+Rodando back com um Json
+```
+
+<br />
+
+---
+
+<br />
+
+<div align="center">
+<a href="https://github.com/romulomastelari">
+<img src="https://github.com/romulomastelari.png" width="100px;" alt="" style="border-radius:50% box-shadow: 0 2px 2px rgba(0,0,0, .5);" />
+<br />
+<sub><b>Romulo Mastelari</b></sub></a>
+
+📌 Só boraaaa! Sempre para frente :) 🚀🚀🚀
+</div>
