@@ -1,0 +1,9 @@
+.fa-github, .fa-linkedin, .fa-twitter, .fa-facebook-f, .fa-instagram {
+  font-size: 1.5em;
+}
+
+.fa-github:hover, .fa-linkedin:hover, .fa-twitter:hover, .fa-facebook-f:hover, .fa-instagram:hover {
+  color: blue;
+  transition: 0.8s;
+}
+

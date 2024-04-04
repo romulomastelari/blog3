@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-4">
+      <div>
+        <div class="card border-0" style="width: 18rem;" *ngFor="let author of listAuthor">
+          <div class="div d-flex justify-content-center mt-3">
+            <img [src]="'data:image/jpeg;base64,' + author.img"
+                 class="card-img-top rounded-circle mw-100 h-auto" style="max-height: 200px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">{{ author.name }}</h5>
+            <p class="card-text text-center">{{ author.profession }}</p>
+            <a href="https://github.com/romulomastelari" target="_blank"
+               class="btn btn-outline-dark d-flex justify-content-center">GitHub</a>
+            <hr class="mt-4 mb-4">
+          </div>
+        </div>
+        <div class="filter-name "style="width: 18rem;">
+          <h6 class="h6 mb-3 text-monospace text-center">Pesquisar por Nome</h6>
+          <input type="text" class="form-control mb-3 w-100" [(ngModel)]="searchName" (input)="searchByName()">
+          <button class="btn btn-outline-warning w-100" >Pesquisar</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-8">
+      <div>
+        <h3 class="text-center mb-4 text-monospace">Digite abaixo os seus comentários:</h3>
+        <div class="mb-4">
+          <label for="name" class="text-monospace">Nome:</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome"
+                 [(ngModel)]="postMessage.name">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="text-monospace">Comentário:</label>
+          <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                    placeholder="Digite a sua mensagem!" [(ngModel)]="postMessage.message">
+          </textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-outline-info w-25" (click)="registrationMessage()">Postar</button>
+        </div>
+      </div>
+      <hr class="mt-5 mb-5">
+      <h3 class="text-center mb-5 text-monospace">Comentários adicionados:</h3>
+      <div class="div container">
+        <div class="card mb-4" *ngFor="let list of listPost">
+          <div class="card-header">
+            <h5 class="card-title">{{ list.id }}</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{ list.name }}:</p>
+            <p class="card-text">{{ list.message }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
