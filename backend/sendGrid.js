@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-sgMail.setApiKey('teste-a=a-a-a-s-b-');
+sgMail.setApiKey('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');
 
 app.post('/send-email', (req, res) => {
     const { name, email, message } = req.body;
